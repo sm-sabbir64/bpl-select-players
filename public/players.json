@@ -1,0 +1,122 @@
+[
+  {
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/LDZCFcCN/download.jpg",
+    "player_role": "Bowler",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Left-arm Fast-medium",
+    "rating": 9.2,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Alex Hales",
+    "player_country": "England",
+    "player_image": "https://i.ibb.co.com/sd3fGqpk/download-1.jpg",
+    "player_role": "Opening Batter",
+    "batting_hand": "Right hand bat",
+    "bowling_role": "N/A",
+    "rating": 9.0,
+    "price": "USD 80,000"
+  },
+  {
+    "player_name": "Towhid Hridoy",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/ZzPJWbqh/download-2.jpg",
+    "player_role": "Top-order Batter",
+    "batting_hand": "Right hand bat",
+    "bowling_role": "Right-arm Offbreak",
+    "rating": 8.8,
+    "price": "Tk 92 lakh"
+  },
+  {
+    "player_name": "Litton Das",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/4nb8zqgj/images.jpg",
+    "player_role": "Wicketkeeper Batter",
+    "batting_hand": "Right hand bat",
+    "bowling_role": "N/A",
+    "rating": 8.7,
+    "price": "Tk 70 lakh"
+  },
+  {
+    "player_name": "Shaheen Afridi",
+    "player_country": "Pakistan",
+    "player_image": "https://i.ibb.co.com/tMc1PgYy/gettyimages-2228377855-1024x1024.jpg",
+    "player_role": "Bowler",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Left-arm Fast",
+    "rating": 8.9,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Mehidy Hasan Miraz",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/KpsQKN3w/download-3.jpg",
+    "player_role": "All-rounder",
+    "batting_hand": "Right hand bat",
+    "bowling_role": "Right-arm Offbreak",
+    "rating": 9.1,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/QFqGwVRp/gettyimages-2156959189-612x612.jpg",
+    "player_role": "Bowler",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Right-arm Fast",
+    "rating": 8.8,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Saim Ayub",
+    "player_country": "Pakistan",
+    "player_image": "https://i.ibb.co.com/5x4qqqSr/gettyimages-2183628344-612x612.jpg",
+    "player_role": "Opening Batter",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Right-arm Offbreak",
+    "rating": 8.5,
+    "price": "USD 40,000"
+  },
+  {
+    "player_name": "Najmul Hossain Shanto",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/fV1Q9ZhX/download-4.jpg",
+    "player_role": "Batter",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Right-arm Offbreak",
+    "rating": 8.4,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Shoriful Islam",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/XxVbqyRq/download-5.jpg",
+    "player_role": "Bowler",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "Left-arm Medium-fast",
+    "rating": 8.6,
+    "price": "Direct Signing"
+  },
+  {
+    "player_name": "Mohammad Naim",
+    "player_country": "Bangladesh",
+    "player_image": "https://i.ibb.co.com/xqJn0Jv1/gettyimages-910349750-612x612.jpg",
+    "player_role": "Opening Batter",
+    "batting_hand": "Left hand bat",
+    "bowling_role": "N/A",
+    "rating": 7.9,
+    "price": "Tk 1.10 crore"
+  },
+  {
+    "player_name": "Saif Hasan",
+    "player_country": "Sri Lanka",
+    "player_image": "https://i.ibb.co.com/Qj6bmB6q/download-6.jpg",
+    "player_role": "Wicketkeeper Batter",
+    "batting_hand": "Right hand bat",
+    "bowling_role": "Legbreak",
+    "rating": 8.3,
+    "price": "USD 55,000"
+  }
+]
