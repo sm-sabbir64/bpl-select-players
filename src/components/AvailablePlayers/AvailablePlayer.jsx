@@ -5,8 +5,8 @@ const AvailablePlayer = ({playersPromise}) => {
     console.log(playersData);
     
     return (
-        <div>
-            
+        <div className='max-w-325 mx-auto'>
+            Computer Science & Technology
         </div>
     );
 };
