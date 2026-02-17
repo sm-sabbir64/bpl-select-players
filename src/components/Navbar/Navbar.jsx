@@ -4,7 +4,7 @@ import dollarImg from "../../assets/images.jpg";
 
 const Navbar = () => {
     return (
-        <div className="navbar max-w-325 mx-auto bg-base-100 shadow-sm gap-12 mt-11">
+        <div className="navbar max-w-325 mx-auto bg-base-100 shadow-sm gap-12 mt-11 border-2 border-orange-500">
         <div className="flex-1">
           <a className="text-xl">
             <img className="w-15 h-15" src={navImg} alt="" />
