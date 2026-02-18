@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import userImg from "../../assets/user-1.png";
 import flagImg from "../../assets/flag.png";
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player,setAvailableBalance }) => {
     const [isSelected, setSelected] = useState(false)
   return (
     <div className="card bg-base-100 shadow-sm p-5">
