@@ -3,21 +3,23 @@ import "./App.css";
 import AvailablePlayer from "./components/AvailablePlayers/AvailablePlayer";
 import Navbar from "./components/Navbar/Navbar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
+import Banner from "./components/BannerSection/Banner"
 
 const fetchPlayer = async () => {
   const res = await fetch("/players.json");
   return res.json();
 };
+const playersPromise = fetchPlayer();
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(6000000000)
+  const [availableBalance, setAvailableBalance] = useState(6000000000);
 
-  const playersPromise = fetchPlayer();
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
-      <div className="max-w-325 mx-auto flex justify-between items-center border-2 border-orange-500 mt-6">
+      <Banner></Banner>
+      <div className="max-w-325 mx-auto flex justify-between items-center mt-6">
         <h1 className="font-bold text-2xl">Available player</h1>
 
         <div className="font-bold">
@@ -40,7 +42,11 @@ function App() {
         <Suspense
           fallback={<span className="loading loading-dots loading-xl"></span>}
         >
-          <AvailablePlayer setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></AvailablePlayer>
+          <AvailablePlayer
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+            playersPromise={playersPromise}
+          ></AvailablePlayer>
         </Suspense>
       ) : (
         <SelectedPlayers></SelectedPlayers>
